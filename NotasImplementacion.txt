@@ -1,0 +1,15 @@
+- La intersección de conjuntos en Python trabaja con instancias.
+
+- Para mayor comodidad en la elección de horarios, las horas ocupadas seran
+horas individuales y no por bloques.
+
+- Formas posibles de implementar:
+
+--> Con clases <Singleton> (Intuitivo en definición, utiliza metaclases).
+--> Con clases <Lista> (Intuitivo en definición pero no en implementación).
+--> Con clases (Intuitivo en definición)
+--> Con diccionario (Intuitivo)
+*Las posibilidades anteriores son poco eficientes en memoria.
+--> Con matriz, lista de valores (Poco intuitivo pero eficiente en memoria):
+Cada casilla del horario de clases (días vs horas) tiene un número que la
+representa, los conjuntos se crean entonces con estos representantes.
